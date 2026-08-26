@@ -1,16 +1,40 @@
-## Hi there 👋
+# Hi, I'm Peter 👋
 
-<!--
-**peterwkdev-creator/peterwkdev-creator** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I help small businesses and individuals with quick-turnaround, single-delivery projects — no ongoing contracts, no maintenance, just a clear brief and a finished result.
 
-Here are some ideas to get you started:
+## What I offer
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Writing & Content**
+- Blog articles, short e-books, and scripts
+- Copywriting and content editing
+- Resume and LinkedIn profile writing/rewriting
+
+**Translation & Transcription**
+- Document, email, and simple contract translation (PT ↔ EN)
+- Transcription and summarization from provided text or audio notes
+
+**Spreadsheets & Documents**
+- Excel / Google Sheets templates and dashboards
+- Word documents, PowerPoint presentations
+- Data cleaning and organization
+
+**Simple Websites & Tools**
+- Static landing pages (HTML/CSS/JS, delivered as files)
+- Calculators, quizzes, and simple prototypes/mockups
+
+**Research & Analysis**
+- Market and competitor research reports
+- Simple data analysis (CSV → charts and insights)
+
+## Tools
+
+Excel · Google Sheets · Word · PowerPoint · Markdown · HTML/CSS/JS
+
+## Portfolio
+
+Sample projects for each service above are pinned below. *(Coming soon.)*
+
+## Contact
+
+- Email: peterwk.dev@gmail.com
+- Fiverr / Upwork: *(links coming soon)*
