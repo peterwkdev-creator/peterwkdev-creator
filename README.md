@@ -51,7 +51,7 @@ Sample projects for each service above are pinned below. *(Coming soon.)*
 <a id="português-brasil"></a>
 # Olá, sou o Peter 👋
 
-*[🇺🇸 Read in English](#english)*
+*[Read in English](#english)*
 
 Ajudo pequenas empresas e pessoas físicas com projetos de entrega rápida e única — sem contratos contínuos, sem manutenção, só um briefing claro e um resultado pronto.
 
