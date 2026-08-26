@@ -1,3 +1,8 @@
+<p align="right">
+  <a href="#english">English</a> · <a href="#português-brasil">Português</a>
+</p>
+
+<a id="english"></a>
 # Hi, I'm Peter 👋
 
 I help small businesses and individuals with quick-turnaround, single-delivery projects — no ongoing contracts, no maintenance, just a clear brief and a finished result.
@@ -38,3 +43,51 @@ Sample projects for each service above are pinned below. *(Coming soon.)*
 
 - Email: peterwk.dev@gmail.com
 - Fiverr / Upwork: *(links coming soon)*
+
+<br>
+
+---
+
+<a id="português-brasil"></a>
+# Olá, sou o Peter 👋
+
+*[🇺🇸 Read in English](#english)*
+
+Ajudo pequenas empresas e pessoas físicas com projetos de entrega rápida e única — sem contratos contínuos, sem manutenção, só um briefing claro e um resultado pronto.
+
+## O que eu ofereço
+
+**Redação e Conteúdo**
+- Artigos de blog, e-books curtos e roteiros
+- Copywriting e revisão de conteúdo
+- Redação/reescrita de currículo e perfil do LinkedIn
+
+**Tradução e Transcrição**
+- Tradução de documentos, e-mails e contratos simples (PT ↔ EN)
+- Transcrição e resumo a partir de texto ou áudio fornecido
+
+**Planilhas e Documentos**
+- Modelos e dashboards em Excel/Google Sheets
+- Documentos Word, apresentações PowerPoint
+- Limpeza e organização de dados
+
+**Sites e Ferramentas Simples**
+- Landing pages estáticas (HTML/CSS/JS, entregues como arquivo)
+- Calculadoras, quizzes e protótipos/mockups simples
+
+**Pesquisa e Análise**
+- Relatórios de pesquisa de mercado e concorrência
+- Análise simples de dados (CSV → gráficos e insights)
+
+## Ferramentas
+
+Excel · Google Sheets · Word · PowerPoint · Markdown · HTML/CSS/JS
+
+## Portfólio
+
+Exemplos de projetos para cada serviço acima estão fixados abaixo. *(Em breve.)*
+
+## Contato
+
+- E-mail: peterwk.dev@gmail.com
+- Fiverr / Upwork: *(links em breve)*
