@@ -1,5 +1,5 @@
 <p align="right">
-  <a href="#english">English</a> · <a href="#português-brasil">Português</a>
+<a href="#english">English</a> · <a href="#português-brasil">Português</a>
 </p>
 
 <a id="english"></a>
@@ -37,7 +37,14 @@ Excel · Google Sheets · Word · PowerPoint · Markdown · HTML/CSS/JS
 
 ## Portfolio
 
-Sample projects for each service above are pinned below. *(Coming soon.)*
+Sample projects for each service above, live on GitHub:
+
+- **Resume & LinkedIn rewrite** — [sample-resume-linkedin](https://github.com/peterwkdev-creator/sample-resume-linkedin)
+- **Translation (PT ↔ EN)** — [sample-translation-pt-en](https://github.com/peterwkdev-creator/sample-translation-pt-en)
+- **Content writing** — [sample-content-writing](https://github.com/peterwkdev-creator/sample-content-writing)
+- **Financial dashboard (Excel)** — [sample-financial-dashboard-spreadsheet](https://github.com/peterwkdev-creator/sample-financial-dashboard-spreadsheet)
+- **Static landing page** — [sample-landing-page-static](https://github.com/peterwkdev-creator/sample-landing-page-static)
+- **Data cleaning automation (Python)** — [sample-automation-workflow](https://github.com/peterwkdev-creator/sample-automation-workflow)
 
 ## Contact
 
@@ -85,7 +92,14 @@ Excel · Google Sheets · Word · PowerPoint · Markdown · HTML/CSS/JS
 
 ## Portfólio
 
-Exemplos de projetos para cada serviço acima estão fixados abaixo. *(Em breve.)*
+Exemplos de projetos para cada serviço acima, publicados no GitHub:
+
+- **Reescrita de currículo e LinkedIn** — [sample-resume-linkedin](https://github.com/peterwkdev-creator/sample-resume-linkedin)
+- **Tradução (PT ↔ EN)** — [sample-translation-pt-en](https://github.com/peterwkdev-creator/sample-translation-pt-en)
+- **Redação de conteúdo** — [sample-content-writing](https://github.com/peterwkdev-creator/sample-content-writing)
+- **Dashboard financeiro (Excel)** — [sample-financial-dashboard-spreadsheet](https://github.com/peterwkdev-creator/sample-financial-dashboard-spreadsheet)
+- **Landing page estática** — [sample-landing-page-static](https://github.com/peterwkdev-creator/sample-landing-page-static)
+- **Automação de limpeza de dados (Python)** — [sample-automation-workflow](https://github.com/peterwkdev-creator/sample-automation-workflow)
 
 ## Contato
 
