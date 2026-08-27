@@ -11,7 +11,7 @@ I help small businesses and individuals with quick-turnaround, single-delivery p
 
 **Writing & Content**
 - Blog articles, short e-books, and scripts
-- Copywriting and content editing
+- Copywriting, content editing, and proofreading
 - Resume and LinkedIn profile writing/rewriting
 
 **Translation & Transcription**
@@ -28,6 +28,10 @@ I help small businesses and individuals with quick-turnaround, single-delivery p
 - Calculators, quizzes, and simple prototypes/mockups
 - Small web apps (Next.js/React), deployed and ready to use
 
+**Design & AI**
+- Social media template kits (Instagram-ready)
+- AI prompts and workflows for support/content teams
+
 **Research & Analysis**
 - Market and competitor research reports
 - Simple data analysis (CSV → charts and insights)
@@ -43,12 +47,16 @@ Sample projects for each service above, live on GitHub:
 - **Resume & LinkedIn rewrite** — [sample-resume-linkedin](https://github.com/peterwkdev-creator/sample-resume-linkedin)
 - **Translation (PT ↔ EN)** — [sample-translation-pt-en](https://github.com/peterwkdev-creator/sample-translation-pt-en)
 - **Content writing** — [sample-content-writing](https://github.com/peterwkdev-creator/sample-content-writing)
+- **Proofreading & copy editing** — [sample-proofreading-editing](https://github.com/peterwkdev-creator/sample-proofreading-editing)
 - **Financial dashboard (Excel)** — [sample-financial-dashboard-spreadsheet](https://github.com/peterwkdev-creator/sample-financial-dashboard-spreadsheet)
+- **Expense & invoice tracker (Excel)** — [sample-freelancer-expense-invoice-tracker](https://github.com/peterwkdev-creator/sample-freelancer-expense-invoice-tracker)
 - **Static landing page** — [sample-landing-page-static](https://github.com/peterwkdev-creator/sample-landing-page-static)
+- **Social media template kit** — [sample-social-media-template-kit](https://github.com/peterwkdev-creator/sample-social-media-template-kit)
 - **Data cleaning automation (Python)** — [sample-automation-workflow](https://github.com/peterwkdev-creator/sample-automation-workflow)
 - **Financial dashboard (web app)** — [sample-financial-dashboard-webapp](https://github.com/peterwkdev-creator/sample-financial-dashboard-webapp) · [live demo](https://sample-financial-dashboard-webapp.vercel.app)
 - **AI ticket triage (script)** — [sample-ai-support-triage](https://github.com/peterwkdev-creator/sample-ai-support-triage)
 - **AI ticket triage (live web app)** — [sample-ai-ticket-triage-webapp](https://github.com/peterwkdev-creator/sample-ai-ticket-triage-webapp) · [live demo](https://sample-ai-ticket-triage-webapp.vercel.app)
+- **AI prompt pack (customer support)** — [sample-ai-prompt-pack-support](https://github.com/peterwkdev-creator/sample-ai-prompt-pack-support)
 
 ## Contact
 
@@ -71,7 +79,7 @@ Ajudo pequenas empresas e pessoas físicas com projetos de entrega rápida e ún
 
 **Redação e Conteúdo**
 - Artigos de blog, e-books curtos e roteiros
-- Copywriting e revisão de conteúdo
+- Copywriting, revisão e edição de conteúdo
 - Redação/reescrita de currículo e perfil do LinkedIn
 
 **Tradução e Transcrição**
@@ -88,6 +96,10 @@ Ajudo pequenas empresas e pessoas físicas com projetos de entrega rápida e ún
 - Calculadoras, quizzes e protótipos/mockups simples
 - Pequenos web apps (Next.js/React), publicados e prontos para uso
 
+**Design e IA**
+- Kits de templates para redes sociais (prontos para Instagram)
+- Prompts e fluxos de IA para times de suporte/conteúdo
+
 **Pesquisa e Análise**
 - Relatórios de pesquisa de mercado e concorrência
 - Análise simples de dados (CSV → gráficos e insights)
@@ -103,12 +115,16 @@ Exemplos de projetos para cada serviço acima, publicados no GitHub:
 - **Reescrita de currículo e LinkedIn** — [sample-resume-linkedin](https://github.com/peterwkdev-creator/sample-resume-linkedin)
 - **Tradução (PT ↔ EN)** — [sample-translation-pt-en](https://github.com/peterwkdev-creator/sample-translation-pt-en)
 - **Redação de conteúdo** — [sample-content-writing](https://github.com/peterwkdev-creator/sample-content-writing)
+- **Revisão e copidesque** — [sample-proofreading-editing](https://github.com/peterwkdev-creator/sample-proofreading-editing)
 - **Dashboard financeiro (Excel)** — [sample-financial-dashboard-spreadsheet](https://github.com/peterwkdev-creator/sample-financial-dashboard-spreadsheet)
+- **Controle de despesas e faturas (Excel)** — [sample-freelancer-expense-invoice-tracker](https://github.com/peterwkdev-creator/sample-freelancer-expense-invoice-tracker)
 - **Landing page estática** — [sample-landing-page-static](https://github.com/peterwkdev-creator/sample-landing-page-static)
+- **Kit de templates para redes sociais** — [sample-social-media-template-kit](https://github.com/peterwkdev-creator/sample-social-media-template-kit)
 - **Automação de limpeza de dados (Python)** — [sample-automation-workflow](https://github.com/peterwkdev-creator/sample-automation-workflow)
 - **Dashboard financeiro (web app)** — [sample-financial-dashboard-webapp](https://github.com/peterwkdev-creator/sample-financial-dashboard-webapp) · [demo ao vivo](https://sample-financial-dashboard-webapp.vercel.app)
 - **Triagem de tickets com IA (script)** — [sample-ai-support-triage](https://github.com/peterwkdev-creator/sample-ai-support-triage)
 - **Triagem de tickets com IA (web app ao vivo)** — [sample-ai-ticket-triage-webapp](https://github.com/peterwkdev-creator/sample-ai-ticket-triage-webapp) · [demo ao vivo](https://sample-ai-ticket-triage-webapp.vercel.app)
+- **Pacote de prompts de IA (atendimento)** — [sample-ai-prompt-pack-support](https://github.com/peterwkdev-creator/sample-ai-prompt-pack-support)
 
 ## Contato
 
