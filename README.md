@@ -49,7 +49,8 @@ Sample projects for each service above, live on GitHub:
 ## Contact
 
 - Email: peterwk.dev@gmail.com
-- Fiverr / Upwork: *(links coming soon)*
+- Upwork: [Peter Wilhelm K.](https://www.upwork.com/freelancers/~01502cc7089ff5e70f)
+- Fiverr: *(link coming soon)*
 
 <br>
 
@@ -104,4 +105,5 @@ Exemplos de projetos para cada serviço acima, publicados no GitHub:
 ## Contato
 
 - E-mail: peterwk.dev@gmail.com
-- Fiverr / Upwork: *(links em breve)*
+- Upwork: [Peter Wilhelm K.](https://www.upwork.com/freelancers/~01502cc7089ff5e70f)
+- Fiverr: *(link em breve)*
