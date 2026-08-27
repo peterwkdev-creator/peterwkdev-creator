@@ -26,6 +26,7 @@ I help small businesses and individuals with quick-turnaround, single-delivery p
 **Simple Websites & Tools**
 - Static landing pages (HTML/CSS/JS, delivered as files)
 - Calculators, quizzes, and simple prototypes/mockups
+- Small web apps (Next.js/React), deployed and ready to use
 
 **Research & Analysis**
 - Market and competitor research reports
@@ -45,6 +46,7 @@ Sample projects for each service above, live on GitHub:
 - **Financial dashboard (Excel)** — [sample-financial-dashboard-spreadsheet](https://github.com/peterwkdev-creator/sample-financial-dashboard-spreadsheet)
 - **Static landing page** — [sample-landing-page-static](https://github.com/peterwkdev-creator/sample-landing-page-static)
 - **Data cleaning automation (Python)** — [sample-automation-workflow](https://github.com/peterwkdev-creator/sample-automation-workflow)
+- **Financial dashboard (web app)** — [sample-financial-dashboard-webapp](https://github.com/peterwkdev-creator/sample-financial-dashboard-webapp) · [live demo](https://sample-financial-dashboard-webapp.vercel.app)
 
 ## Contact
 
@@ -82,6 +84,7 @@ Ajudo pequenas empresas e pessoas físicas com projetos de entrega rápida e ún
 **Sites e Ferramentas Simples**
 - Landing pages estáticas (HTML/CSS/JS, entregues como arquivo)
 - Calculadoras, quizzes e protótipos/mockups simples
+- Pequenos web apps (Next.js/React), publicados e prontos para uso
 
 **Pesquisa e Análise**
 - Relatórios de pesquisa de mercado e concorrência
@@ -101,6 +104,7 @@ Exemplos de projetos para cada serviço acima, publicados no GitHub:
 - **Dashboard financeiro (Excel)** — [sample-financial-dashboard-spreadsheet](https://github.com/peterwkdev-creator/sample-financial-dashboard-spreadsheet)
 - **Landing page estática** — [sample-landing-page-static](https://github.com/peterwkdev-creator/sample-landing-page-static)
 - **Automação de limpeza de dados (Python)** — [sample-automation-workflow](https://github.com/peterwkdev-creator/sample-automation-workflow)
+- **Dashboard financeiro (web app)** — [sample-financial-dashboard-webapp](https://github.com/peterwkdev-creator/sample-financial-dashboard-webapp) · [demo ao vivo](https://sample-financial-dashboard-webapp.vercel.app)
 
 ## Contato
 
