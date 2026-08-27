@@ -47,6 +47,8 @@ Sample projects for each service above, live on GitHub:
 - **Static landing page** — [sample-landing-page-static](https://github.com/peterwkdev-creator/sample-landing-page-static)
 - **Data cleaning automation (Python)** — [sample-automation-workflow](https://github.com/peterwkdev-creator/sample-automation-workflow)
 - **Financial dashboard (web app)** — [sample-financial-dashboard-webapp](https://github.com/peterwkdev-creator/sample-financial-dashboard-webapp) · [live demo](https://sample-financial-dashboard-webapp.vercel.app)
+- **AI ticket triage (script)** — [sample-ai-support-triage](https://github.com/peterwkdev-creator/sample-ai-support-triage)
+- **AI ticket triage (live web app)** — [sample-ai-ticket-triage-webapp](https://github.com/peterwkdev-creator/sample-ai-ticket-triage-webapp) · [live demo](https://sample-ai-ticket-triage-webapp.vercel.app)
 
 ## Contact
 
@@ -105,6 +107,8 @@ Exemplos de projetos para cada serviço acima, publicados no GitHub:
 - **Landing page estática** — [sample-landing-page-static](https://github.com/peterwkdev-creator/sample-landing-page-static)
 - **Automação de limpeza de dados (Python)** — [sample-automation-workflow](https://github.com/peterwkdev-creator/sample-automation-workflow)
 - **Dashboard financeiro (web app)** — [sample-financial-dashboard-webapp](https://github.com/peterwkdev-creator/sample-financial-dashboard-webapp) · [demo ao vivo](https://sample-financial-dashboard-webapp.vercel.app)
+- **Triagem de tickets com IA (script)** — [sample-ai-support-triage](https://github.com/peterwkdev-creator/sample-ai-support-triage)
+- **Triagem de tickets com IA (web app ao vivo)** — [sample-ai-ticket-triage-webapp](https://github.com/peterwkdev-creator/sample-ai-ticket-triage-webapp) · [demo ao vivo](https://sample-ai-ticket-triage-webapp.vercel.app)
 
 ## Contato
 
