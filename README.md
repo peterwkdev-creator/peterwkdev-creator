@@ -76,6 +76,7 @@ Sample projects for each service above, live on GitHub — grouped by category:
 - **Receipt OCR → spreadsheet (script)** — [sample-ocr-receipt-to-spreadsheet](https://github.com/peterwkdev-creator/sample-ocr-receipt-to-spreadsheet)
 - **Competitor price scraping (script)** — [sample-web-scraping-price-tracker](https://github.com/peterwkdev-creator/sample-web-scraping-price-tracker)
 - **Data cleaning automation** — [sample-automation-workflow](https://github.com/peterwkdev-creator/sample-automation-workflow)
+- **Customer feedback router (n8n + Claude)** — [sample-n8n-feedback-router](https://github.com/peterwkdev-creator/sample-n8n-feedback-router)
 
 **Design & AI**
 - **Social media template kit** — [sample-social-media-template-kit](https://github.com/peterwkdev-creator/sample-social-media-template-kit)
@@ -85,6 +86,13 @@ Sample projects for each service above, live on GitHub — grouped by category:
 
 **Research & Analysis**
 - **Text labeling / inter-annotator agreement** — [sample-data-annotation-text-labeling](https://github.com/peterwkdev-creator/sample-data-annotation-text-labeling)
+
+## Also on sale
+
+Some of these spreadsheets grew into finished products, sold as instant
+downloads: **[NumeraSheets on Etsy](https://www.etsy.com/shop/NumeraSheets)** —
+formula-driven trackers for invoices, expenses and rental property, each with a
+filled-in example and a setup guide.
 
 ## Contact
 
@@ -172,6 +180,7 @@ Exemplos de projetos para cada serviço acima, publicados no GitHub — agrupado
 - **OCR de recibos → planilha (script)** — [sample-ocr-receipt-to-spreadsheet](https://github.com/peterwkdev-creator/sample-ocr-receipt-to-spreadsheet)
 - **Scraping de preço de concorrentes (script)** — [sample-web-scraping-price-tracker](https://github.com/peterwkdev-creator/sample-web-scraping-price-tracker)
 - **Automação de limpeza de dados** — [sample-automation-workflow](https://github.com/peterwkdev-creator/sample-automation-workflow)
+- **Roteador de feedback de clientes (n8n + Claude)** — [sample-n8n-feedback-router](https://github.com/peterwkdev-creator/sample-n8n-feedback-router)
 
 **Design e IA**
 - **Kit de templates para redes sociais** — [sample-social-media-template-kit](https://github.com/peterwkdev-creator/sample-social-media-template-kit)
@@ -181,6 +190,13 @@ Exemplos de projetos para cada serviço acima, publicados no GitHub — agrupado
 
 **Pesquisa e Análise**
 - **Rotulagem de texto / concordância entre anotadores** — [sample-data-annotation-text-labeling](https://github.com/peterwkdev-creator/sample-data-annotation-text-labeling)
+
+## Também à venda
+
+Algumas dessas planilhas viraram produtos acabados, vendidos como download
+imediato: **[NumeraSheets na Etsy](https://www.etsy.com/shop/NumeraSheets)** —
+controles orientados a fórmula para faturas, despesas e imóveis de aluguel, cada
+um com exemplo preenchido e guia de uso.
 
 ## Contato
 
