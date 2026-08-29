@@ -90,9 +90,9 @@ Sample projects for each service above, live on GitHub — grouped by category:
 ## Also on sale
 
 Some of these spreadsheets grew into finished products, sold as instant
-downloads: **[NumeraSheets on Etsy](https://www.etsy.com/shop/NumeraSheets)** —
-formula-driven trackers for invoices, expenses and rental property, each with a
-filled-in example and a setup guide.
+downloads: **[NumeraSheets on Etsy](https://numerasheets.etsy.com)** —
+formula-driven trackers for invoices and expenses, rental property, marketplace
+fees and social media content, each with a filled-in example and a setup guide.
 
 ## Contact
 
@@ -194,9 +194,10 @@ Exemplos de projetos para cada serviço acima, publicados no GitHub — agrupado
 ## Também à venda
 
 Algumas dessas planilhas viraram produtos acabados, vendidos como download
-imediato: **[NumeraSheets na Etsy](https://www.etsy.com/shop/NumeraSheets)** —
-controles orientados a fórmula para faturas, despesas e imóveis de aluguel, cada
-um com exemplo preenchido e guia de uso.
+imediato: **[NumeraSheets na Etsy](https://numerasheets.etsy.com)** —
+controles orientados a fórmula para faturas e despesas, imóveis de aluguel,
+taxas de marketplace e conteúdo de redes sociais, cada um com exemplo
+preenchido e guia de uso.
 
 ## Contato
 
