@@ -93,6 +93,8 @@ Some of these spreadsheets grew into finished products, sold as instant
 downloads: **[NumeraSheets on Etsy](https://numerasheets.etsy.com)** —
 formula-driven trackers for invoices and expenses, rental property, marketplace
 fees and social media content, each with a filled-in example and a setup guide.
+There is a **[catalogue site](https://numerasheets.vercel.app)** too, with a
+screenshot of every workbook.
 
 ## Contact
 
@@ -197,7 +199,8 @@ Algumas dessas planilhas viraram produtos acabados, vendidos como download
 imediato: **[NumeraSheets na Etsy](https://numerasheets.etsy.com)** —
 controles orientados a fórmula para faturas e despesas, imóveis de aluguel,
 taxas de marketplace e conteúdo de redes sociais, cada um com exemplo
-preenchido e guia de uso.
+preenchido e guia de uso. Há também um **[site com o catálogo](https://numerasheets.vercel.app)**,
+com screenshot de cada planilha.
 
 ## Contato
 
