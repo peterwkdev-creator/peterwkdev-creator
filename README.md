@@ -12,9 +12,9 @@ sources still attached.
 
 ## Featured projects
 
-### Observatório do Nordeste
+### Números Públicos
 
-**[Live site](https://observatorio-ne.vercel.app)** · **[Source](https://github.com/peterwkdev-creator/observatorio-ne)** · AGPL-3.0
+**[Live site](https://www.numerospublicos.com.br)** · **[Source](https://github.com/peterwkdev-creator/observatorio-ne)** · AGPL-3.0
 
 A public-data observatory for Brazil's Northeast: population, GDP and GDP per
 capita for all **1,794 municipalities**, ingested straight from the official
@@ -28,6 +28,9 @@ capita for all **1,794 municipalities**, ingested straight from the official
   hiding it.
 - **Weekly GitHub Actions job** re-ingests, verifies, and commits only when the
   data actually changed.
+- **One page per municipality** — 1,794 of them, each with its own title,
+  description and canonical, joining IBGE data to the fiscal figures by the
+  shared IBGE code. A single indexable URL became 1,794.
 - **55 automated tests**, including a cross-language contract test that fails if
   the Python export and the TypeScript types ever drift apart.
 
@@ -199,9 +202,9 @@ ainda coladas no número.
 
 ## Projetos em destaque
 
-### Observatório do Nordeste
+### Números Públicos
 
-**[Site no ar](https://observatorio-ne.vercel.app)** · **[Código](https://github.com/peterwkdev-creator/observatorio-ne)** · AGPL-3.0
+**[Site no ar](https://www.numerospublicos.com.br)** · **[Código](https://github.com/peterwkdev-creator/observatorio-ne)** · AGPL-3.0
 
 Observatório de dados públicos do Nordeste: população, PIB e PIB per capita dos
 **1.794 municípios** da região, ingeridos direto das **APIs oficiais do IBGE**.
@@ -214,6 +217,9 @@ Nenhum número digitado à mão em lugar nenhum do projeto.
   qualquer publicação — e **relata** a diferença em vez de escondê-la.
 - **Rotina semanal no GitHub Actions** que reingere, confere e só commita quando
   o dado realmente mudou.
+- **Uma página por município** — 1.794 delas, cada uma com título, descrição e
+  canonical próprios, unindo o dado do IBGE ao fiscal pela chave do código
+  IBGE. Uma única URL indexável virou 1.794.
 - **55 testes automatizados**, incluindo um teste de contrato entre linguagens
   que falha se o export em Python e os tipos em TypeScript se afastarem.
 
