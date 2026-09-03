@@ -59,6 +59,29 @@ middle, the open data is unusable.
 
 **Stack:** Python 3.10+ (standard library only, zero dependencies) · SQLite
 
+### Painel Fiscal do Nordeste
+
+**[Source](https://github.com/peterwkdev-creator/painel-fiscal-ne)** · AGPL-3.0
+
+Brazil's Fiscal Responsibility Law caps municipal personnel spending at **54%**
+of net revenue, with a **51.3%** threshold that already forbids hiring. The data
+is public, but it arrives one municipality per request, 200+ chart-of-accounts
+lines at a time. In practice nobody looks.
+
+The complete Northeast sweep: **1,793 municipalities, 1,414 filed, 379 did not.**
+
+- **It never recalculates the percentage.** The figure arrives computed by the
+  municipality over its *adjusted* revenue — a distinction the consistency check
+  itself uncovered, having first diverged in every single municipality by using
+  the gross figure. **Divergence in one direction only is never chance.**
+- **Implausible filings are shown as filed and labelled, not ranked.**
+  Guaratinga/BA declared 371% of revenue; Paripueira/AL declared *negative*
+  spending, and that one is internally consistent, so the check could not catch
+  it — consistency is not plausibility. Correcting would invent a number; hiding
+  would decide which filings a reader may see.
+
+**Stack:** Python 3.12 (standard library only) · SQLite · Next.js · TypeScript
+
 ## What I build
 
 **Backend & data**
@@ -220,6 +243,29 @@ fornecedor pequeno consegue de fato disputar. Só o Pregão Eletrônico publica
   que torna a política de backoff verificável em vez de apenas descrita.
 
 **Stack:** Python 3.10+ (só biblioteca padrão, zero dependências) · SQLite
+
+### Painel Fiscal do Nordeste
+
+**[Código](https://github.com/peterwkdev-creator/painel-fiscal-ne)** · AGPL-3.0
+
+A Lei de Responsabilidade Fiscal limita a despesa municipal com pessoal a
+**54%** da receita, com um limite prudencial de **51,3%** que já proíbe
+contratar. O dado é público, mas sai **um município por requisição**, em 200+
+linhas de plano de contas por consulta. Na prática, ninguém olha.
+
+A varredura completa do Nordeste: **1.793 municípios, 1.414 entregaram, 379 não.**
+
+- **Ele nunca recalcula o percentual.** O número vem calculado pelo próprio
+  município sobre a receita *ajustada* — distinção que a própria conferência
+  descobriu, ao divergir em **todos** os municípios por usar a receita bruta.
+  **Divergência num sentido só nunca é acaso.**
+- **Declaração implausível é exibida como declarada e marcada, nunca ranqueada.**
+  Guaratinga/BA declarou 371% da receita; Paripueira/AL declarou despesa
+  **negativa** — e essa a conferência não pegou, porque é internamente coerente.
+  Coerência não é plausibilidade. Corrigir seria inventar número; esconder seria
+  escolher quais declarações o leitor pode ver.
+
+**Stack:** Python 3.12 (só biblioteca padrão) · SQLite · Next.js · TypeScript
 
 ## O que eu construo
 
