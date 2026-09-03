@@ -10,7 +10,7 @@ TypeScript for everything I build on my own. I like systems that take messy
 real-world data and turn it into something a person can actually use, with the
 sources still attached.
 
-## Featured project
+## Featured projects
 
 ### Observatório do Nordeste
 
@@ -33,6 +33,31 @@ capita for all **1,794 municipalities**, ingested straight from the official
 
 **Stack:** Python 3.12 (standard library only) · SQLite · Next.js 16 (App
 Router, static export) · TypeScript · GitHub Actions · Vercel
+
+### Radar de Licitações
+
+**[Source](https://github.com/peterwkdev-creator/radar-licitacoes)** · AGPL-3.0
+
+Sweeps Brazil's public procurement API for the IT contracts a small supplier can
+actually compete for. Electronic auction alone publishes **2,432 contracts in a
+single day**, and the API cannot filter by keyword — without a program in the
+middle, the open data is unusable.
+
+- **It stores what it discarded.** A false positive shows up and someone sees it;
+  a false negative shows up nowhere, and silence is indistinguishable from
+  "there was nothing there". An audit of that silence found a city hall asking
+  for a website **with source code delivery** that the filter had missed by a
+  single letter.
+- **The sweep assumes it will be interrupted.** The API spends a daily budget
+  rather than enforcing a rate, so pages are written as they arrive and a rerun
+  resumes instead of re-reading.
+- **Network failure is a status code, never an exception** — a socket
+  `TimeoutError` is an `OSError`, not a `URLError`, and once escaped the retry
+  logic entirely, taking down a run that had already read 2,500 records.
+- **104 tests**, no network and no waiting: transport and clock are injected, so
+  the backoff policy is verifiable rather than merely described.
+
+**Stack:** Python 3.10+ (standard library only, zero dependencies) · SQLite
 
 ## What I build
 
@@ -149,7 +174,7 @@ TypeScript no que construo por conta própria. Gosto de sistemas que pegam dado
 bruto do mundo real e devolvem algo que uma pessoa consegue usar, com as fontes
 ainda coladas no número.
 
-## Projeto em destaque
+## Projetos em destaque
 
 ### Observatório do Nordeste
 
@@ -171,6 +196,30 @@ Nenhum número digitado à mão em lugar nenhum do projeto.
 
 **Stack:** Python 3.12 (só biblioteca padrão) · SQLite · Next.js 16 (App Router,
 export estático) · TypeScript · GitHub Actions · Vercel
+
+### Radar de Licitações
+
+**[Código](https://github.com/peterwkdev-creator/radar-licitacoes)** · AGPL-3.0
+
+Varre a API de compras públicas do Brasil atrás das contratações de TI que um
+fornecedor pequeno consegue de fato disputar. Só o Pregão Eletrônico publica
+**2.432 contratações em um único dia**, e a API **não filtra por palavra-chave**
+— sem um programa no meio, o dado aberto é inutilizável.
+
+- **Ele guarda o que descartou.** Falso positivo aparece e alguém vê; falso
+  negativo não aparece em lugar nenhum, e ficar quieto é indistinguível de "não
+  havia nada". A auditoria desse silêncio achou uma prefeitura pedindo site
+  **com entrega do código-fonte** que o filtro tinha perdido por uma letra.
+- **A varredura assume que vai ser interrompida.** A API gasta um orçamento
+  diário em vez de impor uma taxa, então cada página é gravada ao chegar e uma
+  nova execução retoma em vez de reler.
+- **Falha de rede é status, nunca exceção** — `TimeoutError` de socket é
+  `OSError`, não `URLError`, e uma vez atravessou todo o mecanismo de repetição,
+  derrubando uma execução com 2.500 registros já lidos.
+- **104 testes**, sem rede e sem espera: transporte e relógio são injetados, o
+  que torna a política de backoff verificável em vez de apenas descrita.
+
+**Stack:** Python 3.10+ (só biblioteca padrão, zero dependências) · SQLite
 
 ## O que eu construo
 
