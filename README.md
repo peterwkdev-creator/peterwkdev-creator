@@ -133,8 +133,7 @@ I also take on spreadsheet, document, translation and writing work.
 
 ## Contact
 
-- Email: peterwk.dev@gmail.com
-- Upwork: [Peter Wilhelm K.](https://www.upwork.com/freelancers/~01502cc7089ff5e70f)
+- Email: **peterwk.dev@gmail.com**
 
 <br>
 
@@ -273,5 +272,4 @@ Também atendo trabalho de planilha, documento, tradução e redação.
 
 ## Contato
 
-- E-mail: peterwk.dev@gmail.com
-- Upwork: [Peter Wilhelm K.](https://www.upwork.com/freelancers/~01502cc7089ff5e70f)
+- E-mail: **peterwk.dev@gmail.com**
