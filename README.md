@@ -148,7 +148,6 @@ real engineering is.
 <details>
 <summary><b>Web apps</b></summary>
 
-- **Financial dashboard** — [sample-financial-dashboard-webapp](https://github.com/peterwkdev-creator/sample-financial-dashboard-webapp) · [live demo](https://sample-financial-dashboard-webapp.vercel.app)
 - **Competitor price watch** — [sample-price-comparison-webapp](https://github.com/peterwkdev-creator/sample-price-comparison-webapp) · [live demo](https://sample-price-comparison-webapp.vercel.app)
 - **Receipt OCR scanner** — [sample-ocr-receipt-webapp](https://github.com/peterwkdev-creator/sample-ocr-receipt-webapp) · [live demo](https://sample-ocr-receipt-webapp.vercel.app)
 - **AI ticket triage** — [sample-ai-ticket-triage-webapp](https://github.com/peterwkdev-creator/sample-ai-ticket-triage-webapp) · [live demo](https://sample-ai-ticket-triage-webapp.vercel.app)
@@ -337,7 +336,6 @@ verdade está no projeto em destaque acima.
 <details>
 <summary><b>Web apps</b></summary>
 
-- **Dashboard financeiro** — [sample-financial-dashboard-webapp](https://github.com/peterwkdev-creator/sample-financial-dashboard-webapp) · [demo ao vivo](https://sample-financial-dashboard-webapp.vercel.app)
 - **Monitor de preço de concorrentes** — [sample-price-comparison-webapp](https://github.com/peterwkdev-creator/sample-price-comparison-webapp) · [demo ao vivo](https://sample-price-comparison-webapp.vercel.app)
 - **Leitor de recibos com OCR** — [sample-ocr-receipt-webapp](https://github.com/peterwkdev-creator/sample-ocr-receipt-webapp) · [demo ao vivo](https://sample-ocr-receipt-webapp.vercel.app)
 - **Triagem de tickets com IA** — [sample-ai-ticket-triage-webapp](https://github.com/peterwkdev-creator/sample-ai-ticket-triage-webapp) · [demo ao vivo](https://sample-ai-ticket-triage-webapp.vercel.app)
