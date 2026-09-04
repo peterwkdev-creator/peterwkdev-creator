@@ -163,60 +163,6 @@ media content, each with a filled-in example and a setup guide. There is a
 **[catalogue site](https://numerasheets.com)** too, with a screenshot of every
 workbook.
 
-## Practice repos
-
-Small single-purpose repos, built while learning a stack or testing an idea.
-They are demos, not production systems — the featured project above is where the
-real engineering is.
-
-<details>
-<summary><b>Backend &amp; automation</b></summary>
-
-- **REST API from scratch (FastAPI)** — [sample-fastapi-inventory-api](https://github.com/peterwkdev-creator/sample-fastapi-inventory-api)
-- **API-to-API integration/sync** — [sample-api-integration-sync](https://github.com/peterwkdev-creator/sample-api-integration-sync)
-- **PDF invoice generation from CSV** — [sample-pdf-invoice-generator](https://github.com/peterwkdev-creator/sample-pdf-invoice-generator)
-- **Receipt OCR → spreadsheet (script)** — [sample-ocr-receipt-to-spreadsheet](https://github.com/peterwkdev-creator/sample-ocr-receipt-to-spreadsheet)
-- **Competitor price scraping (script)** — [sample-web-scraping-price-tracker](https://github.com/peterwkdev-creator/sample-web-scraping-price-tracker)
-- **Customer feedback router (n8n + Claude)** — [sample-n8n-feedback-router](https://github.com/peterwkdev-creator/sample-n8n-feedback-router)
-
-</details>
-
-<details>
-<summary><b>Web apps</b></summary>
-
-- **Competitor price watch** — [sample-price-comparison-webapp](https://github.com/peterwkdev-creator/sample-price-comparison-webapp) · [live demo](https://sample-price-comparison-webapp.vercel.app)
-- **Receipt OCR scanner** — [sample-ocr-receipt-webapp](https://github.com/peterwkdev-creator/sample-ocr-receipt-webapp) · [live demo](https://sample-ocr-receipt-webapp.vercel.app)
-- **AI ticket triage** — [sample-ai-ticket-triage-webapp](https://github.com/peterwkdev-creator/sample-ai-ticket-triage-webapp) · [live demo](https://sample-ai-ticket-triage-webapp.vercel.app)
-
-</details>
-
-<details>
-<summary><b>AI &amp; data</b></summary>
-
-- **AI prompt pack (customer support)** — [sample-ai-prompt-pack-support](https://github.com/peterwkdev-creator/sample-ai-prompt-pack-support)
-- **AI ticket triage (script)** — [sample-ai-support-triage](https://github.com/peterwkdev-creator/sample-ai-support-triage)
-- **Text labeling / inter-annotator agreement** — [sample-data-annotation-text-labeling](https://github.com/peterwkdev-creator/sample-data-annotation-text-labeling)
-
-</details>
-
-<details>
-<summary><b>Spreadsheets, documents and content</b></summary>
-
-I also take on spreadsheet, document, translation and writing work.
-
-- **Financial dashboard (Excel)** — [sample-financial-dashboard-spreadsheet](https://github.com/peterwkdev-creator/sample-financial-dashboard-spreadsheet)
-- **Expense & invoice tracker (Excel)** — [sample-freelancer-expense-invoice-tracker](https://github.com/peterwkdev-creator/sample-freelancer-expense-invoice-tracker)
-- **Content calendar (Google Sheets)** — [sample-google-sheets-content-calendar](https://github.com/peterwkdev-creator/sample-google-sheets-content-calendar)
-- **Resume & LinkedIn rewrite** — [sample-resume-linkedin](https://github.com/peterwkdev-creator/sample-resume-linkedin)
-- **Translation (PT ↔ EN)** — [sample-translation-pt-en](https://github.com/peterwkdev-creator/sample-translation-pt-en)
-- **Proofreading & copy editing** — [sample-proofreading-editing](https://github.com/peterwkdev-creator/sample-proofreading-editing)
-- **Content writing** — [sample-content-writing](https://github.com/peterwkdev-creator/sample-content-writing)
-- **Static landing page** — [sample-landing-page-static](https://github.com/peterwkdev-creator/sample-landing-page-static)
-- **Social media template kit** — [sample-social-media-template-kit](https://github.com/peterwkdev-creator/sample-social-media-template-kit)
-- **Data cleaning automation** — [sample-automation-workflow](https://github.com/peterwkdev-creator/sample-automation-workflow)
-
-</details>
-
 ## Contact
 
 - Email: **peterwk.dev@gmail.com**
@@ -386,60 +332,6 @@ orientados a fórmula para faturas e despesas, imóveis de aluguel, taxas de
 marketplace e conteúdo de redes sociais, cada um com exemplo preenchido e guia
 de uso. Há também um **[site com o catálogo](https://numerasheets.com)**, com
 screenshot de cada planilha.
-
-## Repositórios de prática
-
-Repositórios pequenos, de propósito único, feitos para aprender uma stack ou
-testar uma ideia. São demonstrações, não sistemas de produção — a engenharia de
-verdade está no projeto em destaque acima.
-
-<details>
-<summary><b>Backend e automação</b></summary>
-
-- **API REST do zero (FastAPI)** — [sample-fastapi-inventory-api](https://github.com/peterwkdev-creator/sample-fastapi-inventory-api)
-- **Integração/sincronização entre APIs** — [sample-api-integration-sync](https://github.com/peterwkdev-creator/sample-api-integration-sync)
-- **Geração de fatura em PDF a partir de CSV** — [sample-pdf-invoice-generator](https://github.com/peterwkdev-creator/sample-pdf-invoice-generator)
-- **OCR de recibos → planilha (script)** — [sample-ocr-receipt-to-spreadsheet](https://github.com/peterwkdev-creator/sample-ocr-receipt-to-spreadsheet)
-- **Scraping de preço de concorrentes (script)** — [sample-web-scraping-price-tracker](https://github.com/peterwkdev-creator/sample-web-scraping-price-tracker)
-- **Roteador de feedback de clientes (n8n + Claude)** — [sample-n8n-feedback-router](https://github.com/peterwkdev-creator/sample-n8n-feedback-router)
-
-</details>
-
-<details>
-<summary><b>Web apps</b></summary>
-
-- **Monitor de preço de concorrentes** — [sample-price-comparison-webapp](https://github.com/peterwkdev-creator/sample-price-comparison-webapp) · [demo ao vivo](https://sample-price-comparison-webapp.vercel.app)
-- **Leitor de recibos com OCR** — [sample-ocr-receipt-webapp](https://github.com/peterwkdev-creator/sample-ocr-receipt-webapp) · [demo ao vivo](https://sample-ocr-receipt-webapp.vercel.app)
-- **Triagem de tickets com IA** — [sample-ai-ticket-triage-webapp](https://github.com/peterwkdev-creator/sample-ai-ticket-triage-webapp) · [demo ao vivo](https://sample-ai-ticket-triage-webapp.vercel.app)
-
-</details>
-
-<details>
-<summary><b>IA e dados</b></summary>
-
-- **Pacote de prompts de IA (atendimento)** — [sample-ai-prompt-pack-support](https://github.com/peterwkdev-creator/sample-ai-prompt-pack-support)
-- **Triagem de tickets com IA (script)** — [sample-ai-support-triage](https://github.com/peterwkdev-creator/sample-ai-support-triage)
-- **Rotulagem de texto / concordância entre anotadores** — [sample-data-annotation-text-labeling](https://github.com/peterwkdev-creator/sample-data-annotation-text-labeling)
-
-</details>
-
-<details>
-<summary><b>Planilhas, documentos e conteúdo</b></summary>
-
-Também atendo trabalho de planilha, documento, tradução e redação.
-
-- **Dashboard financeiro (Excel)** — [sample-financial-dashboard-spreadsheet](https://github.com/peterwkdev-creator/sample-financial-dashboard-spreadsheet)
-- **Controle de despesas e faturas (Excel)** — [sample-freelancer-expense-invoice-tracker](https://github.com/peterwkdev-creator/sample-freelancer-expense-invoice-tracker)
-- **Calendário de conteúdo (Google Sheets)** — [sample-google-sheets-content-calendar](https://github.com/peterwkdev-creator/sample-google-sheets-content-calendar)
-- **Reescrita de currículo e LinkedIn** — [sample-resume-linkedin](https://github.com/peterwkdev-creator/sample-resume-linkedin)
-- **Tradução (PT ↔ EN)** — [sample-translation-pt-en](https://github.com/peterwkdev-creator/sample-translation-pt-en)
-- **Revisão e copidesque** — [sample-proofreading-editing](https://github.com/peterwkdev-creator/sample-proofreading-editing)
-- **Redação de conteúdo** — [sample-content-writing](https://github.com/peterwkdev-creator/sample-content-writing)
-- **Landing page estática** — [sample-landing-page-static](https://github.com/peterwkdev-creator/sample-landing-page-static)
-- **Kit de templates para redes sociais** — [sample-social-media-template-kit](https://github.com/peterwkdev-creator/sample-social-media-template-kit)
-- **Automação de limpeza de dados** — [sample-automation-workflow](https://github.com/peterwkdev-creator/sample-automation-workflow)
-
-</details>
 
 ## Contato
 
