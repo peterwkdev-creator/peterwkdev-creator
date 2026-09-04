@@ -121,6 +121,23 @@ result that spending met.
 
 **Stack:** Python 3.12 (standard library only) · SQLite
 
+### NumeraSheets
+
+**[Live site](https://numerasheets.com)** · **[Source](https://github.com/peterwkdev-creator/numerasheets-site)**
+
+The shop window for spreadsheets that grew into products: a home page listing
+every template, one page per product, and a free calculator. **It never takes a
+payment** — buying happens on the shop, and every outbound link is built in one
+place so it stays trackable.
+
+- **Three hostnames, three treatments.** Pointing a custom domain does *not*
+  take the `.vercel.app` down; left alone it serves the whole site on a second
+  URL, which is duplicate content. `numerasheets.com` serves, `www` and the
+  `.vercel.app` both 308 to the apex — with the reasoning written where the
+  config is, not in a commit message nobody reads twice.
+
+**Stack:** Next.js 16 (App Router) · React 19 · Tailwind CSS v4 · TypeScript
+
 ## What I build
 
 **Backend & data**
@@ -156,12 +173,10 @@ Git/GitHub Actions · Vercel · Excel/Google Sheets
 
 ## Also on sale
 
-Some of my spreadsheets grew into finished products, sold as instant downloads:
+The spreadsheets themselves sell as instant downloads on
 **[NumeraSheets on Etsy](https://numerasheets.etsy.com)** — formula-driven
 trackers for invoices and expenses, rental property, marketplace fees and social
-media content, each with a filled-in example and a setup guide. There is a
-**[catalogue site](https://numerasheets.com)** too, with a screenshot of every
-workbook.
+media content, each with a filled-in example and a setup guide.
 
 ## Contact
 
@@ -289,6 +304,23 @@ orçamento gasta em educação ao lado do resultado que esse gasto encontrou.
   por construção; só o arquivo vivo expôs as duas últimas armadilhas.
 
 **Stack:** Python 3.12 (só biblioteca padrão)
+
+### NumeraSheets
+
+**[Site no ar](https://numerasheets.com)** · **[Código](https://github.com/peterwkdev-creator/numerasheets-site)**
+
+A vitrine das planilhas que viraram produto: uma página inicial com todos os
+modelos, uma página por produto e uma calculadora gratuita. **Ela nunca recebe
+pagamento** — a compra acontece na loja, e todo link de saída é montado num
+lugar só, para continuar rastreável.
+
+- **Três hostnames, três tratamentos.** Apontar um domínio próprio **não**
+  derruba o `.vercel.app`; deixado em paz, ele serve o site inteiro numa segunda
+  URL, o que é conteúdo duplicado. O `numerasheets.com` serve, o `www` e o
+  `.vercel.app` fazem 308 para o ápice — com o porquê escrito onde a
+  configuração está, não numa mensagem de commit que ninguém relê.
+
+**Stack:** Next.js 16 (App Router) · React 19 · Tailwind CSS v4 · TypeScript
 
 ## O que eu construo
 
