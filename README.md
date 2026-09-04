@@ -16,23 +16,33 @@ sources still attached.
 
 **[Live site](https://www.numerospublicos.com.br)** · **[Source](https://github.com/peterwkdev-creator/observatorio-ne)** · AGPL-3.0
 
-A public-data observatory for Brazil's Northeast: population, GDP and GDP per
-capita for all **1,794 municipalities**, ingested straight from the official
-**IBGE APIs**. No hand-typed numbers anywhere in the project.
+Open data on **all 5,571 Brazilian municipalities**: population, GDP, personnel
+spending against the legal limit, spending by budget function, and school
+results — ingested straight from the official **IBGE**, **National Treasury**
+and **INEP** sources. No hand-typed numbers anywhere in the project.
+
+The value is in the join: **no single source publishes these together.** A
+municipality's page shows the share of its budget that went to education
+(Treasury) beside the result that spending met (INEP), keyed by the shared IBGE
+code.
 
 - **Pipeline:** Python ingestion → SQLite → static JSON snapshot → Next.js
   static export. No server to keep alive, no database in production.
 - **Every figure carries its source and collection date.** A `conferir` command
-  cross-checks the sum of all municipalities against IBGE's own regional
+  cross-checks the sum of all municipalities against IBGE's own national
   aggregate before anything is published — and reports the difference instead of
-  hiding it.
-- **Weekly GitHub Actions job** re-ingests, verifies, and commits only when the
-  data actually changed.
-- **One page per municipality** — 1,794 of them, each with its own title,
-  description and canonical, joining IBGE data to the fiscal figures by the
-  shared IBGE code. A single indexable URL became 1,794.
-- **55 automated tests**, including a cross-language contract test that fails if
-  the Python export and the TypeScript types ever drift apart.
+  hiding it. Population matches exactly; GDP differs by 31 in 9,012,142,000,
+  which is rounding, and the check says which it is.
+- **Absence is never turned into a number.** "Did not file", "not yet consulted"
+  and "reports as a state, not a municipality" are three different things, and
+  the site keeps them apart — including in the downloads.
+- **One page per municipality** — 5,571 of them, each with its own title,
+  description and canonical, plus search across the whole country, filters that
+  stack, and downloads in CSV and XLSX.
+- **56 Python tests and 37 in the panel**, including a cross-language contract
+  test that fails if the Python export and the TypeScript types ever drift
+  apart — plus an accessibility audit that runs against the **generated HTML**
+  in three modes: light, dark and print.
 
 **Stack:** Python 3.12 (standard library only) · SQLite · Next.js 16 (App
 Router, static export) · TypeScript · GitHub Actions · Vercel
@@ -62,7 +72,7 @@ middle, the open data is unusable.
 
 **Stack:** Python 3.10+ (standard library only, zero dependencies) · SQLite
 
-### Painel Fiscal do Nordeste
+### Painel Fiscal
 
 **[Source](https://github.com/peterwkdev-creator/painel-fiscal-ne)** · AGPL-3.0
 
@@ -71,7 +81,9 @@ of net revenue, with a **51.3%** threshold that already forbids hiring. The data
 is public, but it arrives one municipality per request, 200+ chart-of-accounts
 lines at a time. In practice nobody looks.
 
-The complete Northeast sweep: **1,793 municipalities, 1,414 filed, 379 did not.**
+The complete national sweep: **5,570 municipalities consulted, 3,244 filed, 2,326 did not** — and zero divergences across all 3,244.
+
+**The filing rate is the finding, not the spending.** It ranges from 100% to 14% across states and follows no regional line: Santa Catarina files 86% and neighbouring Rio Grande do Sul 15%; Bahia 99% and Maranhão 49%, both in the Northeast.
 
 - **It never recalculates the percentage.** The figure arrives computed by the
   municipality over its *adjusted* revenue — a distinction the consistency check
@@ -84,6 +96,30 @@ The complete Northeast sweep: **1,793 municipalities, 1,414 filed, 379 did not.*
   would decide which filings a reader may see.
 
 **Stack:** Python 3.12 (standard library only) · SQLite · Next.js · TypeScript
+
+### Educação (INEP)
+
+**[Source](https://github.com/peterwkdev-creator/educacao-inep)** · AGPL-3.0
+
+Reads Brazil's IDEB education index per municipality out of the INEP
+spreadsheet — **5,433 municipalities in the early years, 3,906 in the later
+ones**, ten editions from 2005 to 2023 — and feeds the observatory, so a
+municipality's page can show the share of budget spent on education beside the
+result that spending met.
+
+- **Six silent traps**, and the last two only surfaced against the real file.
+  The municipality code is not the key on its own — the network is the other
+  half, and `Pública` is the *aggregate* of the others, not one more network.
+  Caveat markers arrive glued to the number (`206,95**`) with the legend in the
+  spreadsheet's **footer**, not its header.
+- **The absence of a municipal network is not a gap in the collection.** 138
+  municipalities have no municipal early-years network and 1,665 have none in
+  the later years — in Paraná, 388 of 399. Verified by re-ingesting with
+  `--rede Estadual`: 133 of the 138 appear there.
+- **Fixture agreement is not verification.** The fixture I wrote agreed with me
+  by construction; only the live file exposed the last two traps.
+
+**Stack:** Python 3.12 (standard library only) · SQLite
 
 ## What I build
 
@@ -205,22 +241,33 @@ ainda coladas no número.
 
 **[Site no ar](https://www.numerospublicos.com.br)** · **[Código](https://github.com/peterwkdev-creator/observatorio-ne)** · AGPL-3.0
 
-Observatório de dados públicos do Nordeste: população, PIB e PIB per capita dos
-**1.794 municípios** da região, ingeridos direto das **APIs oficiais do IBGE**.
-Nenhum número digitado à mão em lugar nenhum do projeto.
+Dados abertos dos **5.571 municípios brasileiros**: população, PIB, gasto com
+pessoal contra o limite legal, despesa por função orçamentária e resultado
+escolar — ingeridos direto das fontes oficiais do **IBGE**, do **Tesouro
+Nacional** e do **INEP**. Nenhum número digitado à mão em lugar nenhum do
+projeto.
+
+O valor está na costura: **nenhuma fonte publica isso junto.** A página de um
+município mostra a fatia do orçamento que foi para educação (Tesouro) ao lado do
+resultado que esse gasto encontrou (INEP), unidos pela chave do código IBGE.
 
 - **Pipeline:** ingestão em Python → SQLite → snapshot JSON estático → export
   estático do Next.js. Nenhum servidor para manter de pé, nenhum banco em produção.
 - **Todo número carrega a fonte e a data de coleta.** Um comando `conferir`
-  cruza a soma dos municípios com o agregado regional do próprio IBGE antes de
-  qualquer publicação — e **relata** a diferença em vez de escondê-la.
-- **Rotina semanal no GitHub Actions** que reingere, confere e só commita quando
-  o dado realmente mudou.
-- **Uma página por município** — 1.794 delas, cada uma com título, descrição e
-  canonical próprios, unindo o dado do IBGE ao fiscal pela chave do código
-  IBGE. Uma única URL indexável virou 1.794.
-- **55 testes automatizados**, incluindo um teste de contrato entre linguagens
-  que falha se o export em Python e os tipos em TypeScript se afastarem.
+  cruza a soma dos municípios com o agregado nacional do próprio IBGE antes de
+  qualquer publicação — e **relata** a diferença em vez de escondê-la. A
+  população bate exata; o PIB difere em 31 sobre 9.012.142.000, que é
+  arredondamento, e o critério diz qual dos dois é.
+- **Ausência nunca vira número.** "Não entregou", "ainda não consultado" e
+  "presta contas como estado, não como município" são três coisas diferentes, e
+  o site as mantém separadas — inclusive nos downloads.
+- **Uma página por município** — 5.571 delas, cada uma com título, descrição e
+  canonical próprios, mais busca em todo o país, filtros que se somam e
+  downloads em CSV e XLSX.
+- **56 testes em Python e 37 no painel**, incluindo um teste de contrato entre
+  linguagens que falha se o export em Python e os tipos em TypeScript se
+  afastarem — e uma auditoria de acessibilidade que roda contra o **HTML
+  gerado**, em três modos: claro, escuro e impressão.
 
 **Stack:** Python 3.12 (só biblioteca padrão) · SQLite · Next.js 16 (App Router,
 export estático) · TypeScript · GitHub Actions · Vercel
@@ -249,7 +296,7 @@ fornecedor pequeno consegue de fato disputar. Só o Pregão Eletrônico publica
 
 **Stack:** Python 3.10+ (só biblioteca padrão, zero dependências) · SQLite
 
-### Painel Fiscal do Nordeste
+### Painel Fiscal
 
 **[Código](https://github.com/peterwkdev-creator/painel-fiscal-ne)** · AGPL-3.0
 
@@ -258,7 +305,9 @@ A Lei de Responsabilidade Fiscal limita a despesa municipal com pessoal a
 contratar. O dado é público, mas sai **um município por requisição**, em 200+
 linhas de plano de contas por consulta. Na prática, ninguém olha.
 
-A varredura completa do Nordeste: **1.793 municípios, 1.414 entregaram, 379 não.**
+A varredura nacional completa: **5.570 municípios consultados, 3.244 entregaram, 2.326 não** — e zero divergências nos 3.244.
+
+**A taxa de entrega é o achado, não o gasto.** Ela varia de 100% a 14% entre os estados e não segue linha regional: Santa Catarina entrega 86% e o vizinho Rio Grande do Sul 15%; a Bahia 99% e o Maranhão 49%, ambos no Nordeste.
 
 - **Ele nunca recalcula o percentual.** O número vem calculado pelo próprio
   município sobre a receita *ajustada* — distinção que a própria conferência
@@ -271,6 +320,29 @@ A varredura completa do Nordeste: **1.793 municípios, 1.414 entregaram, 379 nã
   escolher quais declarações o leitor pode ver.
 
 **Stack:** Python 3.12 (só biblioteca padrão) · SQLite · Next.js · TypeScript
+
+### Educação (INEP)
+
+**[Código](https://github.com/peterwkdev-creator/educacao-inep)** · AGPL-3.0
+
+Lê o IDEB por município da planilha do INEP — **5.433 municípios nos anos
+iniciais e 3.906 nos finais**, dez edições de 2005 a 2023 — e alimenta o
+observatório, para que a página de um município possa mostrar a fatia do
+orçamento gasta em educação ao lado do resultado que esse gasto encontrou.
+
+- **Seis armadilhas silenciosas**, e as duas últimas só apareceram contra o
+  arquivo real. O código do município não é chave sozinho — a rede é a outra
+  metade, e `Pública` é o **agregado** das outras, não uma rede a mais. Marcas
+  de ressalva vêm coladas ao número (`206,95**`), com a legenda no **rodapé**
+  da planilha, não no cabeçalho.
+- **A ausência de rede municipal não é lacuna da coleta.** 138 municípios não
+  têm rede municipal nos anos iniciais e 1.665 não têm nos finais — no Paraná,
+  388 de 399. Verificado reingerindo com `--rede Estadual`: 133 dos 138
+  aparecem lá.
+- **Fixture que concorda não é verificação.** A que escrevi concordava comigo
+  por construção; só o arquivo vivo expôs as duas últimas armadilhas.
+
+**Stack:** Python 3.12 (só biblioteca padrão)
 
 ## O que eu construo
 
