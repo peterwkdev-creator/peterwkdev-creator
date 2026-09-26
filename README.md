@@ -24,11 +24,11 @@ domestic flights in Brazil — by flight number, route, airport and airline —
 from ANAC's official flight records, with the promised time next to what
 actually happened. 777 pages, launched September 2026.
 
-### [NumeraSheets](https://numerasheets.com) · [source](https://github.com/peterwkdev-creator/numerasheets-site)
+### [NumeraSheets](https://numerasheets.com) · [shop on Etsy](https://www.etsy.com/shop/NumeraSheets) · [source](https://github.com/peterwkdev-creator/numerasheets-site)
 
 Formula-driven spreadsheet templates — invoices and expenses, rental
 property, marketplace fees, social media content — each with a filled-in
-example and a setup guide.
+example and a setup guide, sold as instant downloads.
 
 ## The engines behind them (open source, AGPL-3.0)
 
@@ -62,7 +62,8 @@ sênior desde 2017; tudo abaixo é trabalho meu, no ar.
 - **[Chegou na hora?](https://chegounahora.com.br)** — a pontualidade real de
   cada voo doméstico, pela chegada, com o dado oficial da ANAC.
 - **[NumeraSheets](https://numerasheets.com)** — planilhas prontas com
-  fórmulas, exemplo preenchido e guia de uso.
+  fórmulas, exemplo preenchido e guia de uso, à venda na
+  [loja da Etsy](https://www.etsy.com/shop/NumeraSheets).
 
 Os motores de dados são abertos (AGPL-3.0): painel fiscal, IDEB e radar de
 licitações.
