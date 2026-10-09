@@ -34,7 +34,7 @@ guia de uso, vendidas para baixar na hora.
 
 | | O que faz |
 |---|---|
-| [painel-fiscal-ne](https://github.com/peterwkdev-creator/painel-fiscal-ne) | Varre os relatórios fiscais dos 5.570 municípios no Tesouro Nacional, retomando de onde parou, e marca o envio implausível em vez de ranqueá-lo |
+| [painel-fiscal](https://github.com/peterwkdev-creator/painel-fiscal) | Varre os relatórios fiscais dos 5.570 municípios no Tesouro Nacional, retomando de onde parou, e marca o envio implausível em vez de ranqueá-lo |
 | [educacao-inep](https://github.com/peterwkdev-creator/educacao-inep) | Lê o IDEB de cada município na planilha do INEP, passando por seis armadilhas silenciosas |
 
 **Biblioteca aberta (MIT):** [simples-nacional-br](https://github.com/peterwkdev-creator/simples-nacional-br),
