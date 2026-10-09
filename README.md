@@ -36,7 +36,6 @@ guia de uso, vendidas para baixar na hora.
 |---|---|
 | [painel-fiscal-ne](https://github.com/peterwkdev-creator/painel-fiscal-ne) | Varre os relatórios fiscais dos 5.570 municípios no Tesouro Nacional, retomando de onde parou, e marca o envio implausível em vez de ranqueá-lo |
 | [educacao-inep](https://github.com/peterwkdev-creator/educacao-inep) | Lê o IDEB de cada município na planilha do INEP, passando por seis armadilhas silenciosas |
-| [radar-licitacoes](https://github.com/peterwkdev-creator/radar-licitacoes) | Varre a API de compras públicas (PNCP) atrás dos contratos de TI que um fornecedor pequeno pode disputar, e guarda o registro do que descartou |
 
 **Biblioteca aberta (MIT):** [simples-nacional-br](https://github.com/peterwkdev-creator/simples-nacional-br),
 alíquota efetiva, valor do mês e Fator R do Simples Nacional, conferidos
@@ -70,8 +69,7 @@ engineer since 2017; everything here is my own work, running in production.
   templates with a filled-in example and a setup guide, sold on
   [Etsy](https://numerasheets.etsy.com).
 
-The data engines are open source (AGPL-3.0): fiscal reports, IDEB and public
-procurement. [simples-nacional-br](https://github.com/peterwkdev-creator/simples-nacional-br)
+The data engines are open source (AGPL-3.0): fiscal reports and IDEB. [simples-nacional-br](https://github.com/peterwkdev-creator/simples-nacional-br)
 (MIT) computes Brazil's Simples Nacional tax, checked bracket by bracket
 against the official tables.
 
