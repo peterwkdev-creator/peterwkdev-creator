@@ -44,7 +44,7 @@ anything is published, and absence is never turned into a number.
 
 ## Contact
 
-**peterwk.dev@gmail.com**
+**[peterwk.dev@gmail.com](mailto:peterwk.dev@gmail.com)**
 
 <details>
 <summary><b>Em português</b></summary>
@@ -67,5 +67,7 @@ sênior desde 2017; tudo abaixo é trabalho meu, no ar.
 
 Os motores de dados são abertos (AGPL-3.0): painel fiscal, IDEB e radar de
 licitações.
+
+**Contato:** [peterwk.dev@gmail.com](mailto:peterwk.dev@gmail.com)
 
 </details>
