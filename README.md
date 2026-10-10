@@ -37,8 +37,14 @@ experimentar no navegador, sem instalar nada.
 
 | | O que faz | |
 |---|---|---|
-| [simples-nacional-br](https://github.com/peterwkdev-creator/simples-nacional-br) | Simples Nacional: alíquota efetiva, valor do mês, Fator R e, desde a 1.1.0, a repartição do DAS por tributo, conferidos faixa a faixa contra as tabelas da LC 123/2006 e da LC 214/2025 | [experimentar](https://peterwkdev-creator.github.io/simples-nacional-br/) |
+| [simples-nacional-br](https://github.com/peterwkdev-creator/simples-nacional-br) | Simples Nacional: alíquota efetiva, valor do mês, Fator R e a repartição do DAS por tributo, conferidos faixa a faixa contra as tabelas da LC 123/2006 e da LC 214/2025 | [experimentar](https://peterwkdev-creator.github.io/simples-nacional-br/) |
 | [linguagem-simples-br](https://github.com/peterwkdev-creator/linguagem-simples-br) | Confere um texto contra os 18 incisos da Lei 15.263/2025 (Linguagem Simples) e diz, inciso por inciso, o que achou e o que não tem como conferir; precisão medida no README | [experimentar](https://peterwkdev-creator.github.io/linguagem-simples-br/) |
+
+## Para quem usa o Claude Code (MIT)
+
+| | O que faz |
+|---|---|
+| [claude-context-cost](https://github.com/peterwkdev-creator/claude-context-cost) | Quanto cada fonte (`CLAUDE.md`, regras, skills, memória, resultado de ferramenta) custa no contexto de uma sessão, contado pelo `usage` da API gravado na transcrição, não estimado pelos caracteres; lê só os arquivos locais |
 
 ## Os motores por trás dos sites (AGPL-3.0)
 
@@ -81,7 +87,10 @@ Open libraries (MIT, pure Python, each with an in-browser demo):
 computes Brazil's Simples Nacional tax and its split by tax, checked bracket
 by bracket against the official tables;
 [linguagem-simples-br](https://github.com/peterwkdev-creator/linguagem-simples-br)
-checks a text against Brazil's Plain Language Law (Lei 15.263/2025). The data
+checks a text against Brazil's Plain Language Law (Lei 15.263/2025).
+For Claude Code users, [claude-context-cost](https://github.com/peterwkdev-creator/claude-context-cost) (MIT) measures how much
+each source (`CLAUDE.md`, rules, skills, memory, tool results) costs in a
+session's context, from the API `usage` recorded in its transcript. The data
 engines behind the sites are open source too (AGPL-3.0): fiscal reports and
 IDEB.
 
