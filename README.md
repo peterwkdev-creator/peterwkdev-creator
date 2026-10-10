@@ -37,7 +37,7 @@ experimentar no navegador, sem instalar nada.
 
 | | O que faz | |
 |---|---|---|
-| [simples-nacional-br](https://github.com/peterwkdev-creator/simples-nacional-br) | Simples Nacional: alíquota efetiva, valor do mês, Fator R e a repartição do DAS por tributo, conferidos faixa a faixa contra as tabelas da LC 123/2006 e da LC 214/2025 | [experimentar](https://peterwkdev-creator.github.io/simples-nacional-br/) |
+| [simples-nacional-br](https://github.com/peterwkdev-creator/simples-nacional-br) | Simples Nacional: alíquota efetiva, valor do mês, Fator R e a repartição do DAS por tributo, conferidos faixa a faixa contra as tabelas da LC 123/2006 e da LC 214/2025; também como servidor MCP, para o Claude e outros assistentes chamarem as mesmas contas | [experimentar](https://peterwkdev-creator.github.io/simples-nacional-br/) |
 | [linguagem-simples-br](https://github.com/peterwkdev-creator/linguagem-simples-br) | Confere um texto contra os 18 incisos da Lei 15.263/2025 (Linguagem Simples) e diz, inciso por inciso, o que achou e o que não tem como conferir; precisão medida no README | [experimentar](https://peterwkdev-creator.github.io/linguagem-simples-br/) |
 
 ## Para quem usa o Claude Code (MIT)
@@ -85,7 +85,8 @@ here is my own work, running in production.
 Open libraries (MIT, pure Python, each with an in-browser demo):
 [simples-nacional-br](https://github.com/peterwkdev-creator/simples-nacional-br)
 computes Brazil's Simples Nacional tax and its split by tax, checked bracket
-by bracket against the official tables;
+by bracket against the official tables, also as an MCP server for Claude
+and other assistants;
 [linguagem-simples-br](https://github.com/peterwkdev-creator/linguagem-simples-br)
 checks a text against Brazil's Plain Language Law (Lei 15.263/2025).
 For Claude Code users, [claude-context-cost](https://github.com/peterwkdev-creator/claude-context-cost) (MIT) measures how much
