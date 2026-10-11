@@ -32,13 +32,14 @@ guia de uso, vendidas para baixar na hora.
 
 ## Bibliotecas abertas (MIT)
 
-Python sem dependência, com testes contra a fonte oficial e uma página para
-experimentar no navegador, sem instalar nada.
+Python sem dependência, com testes contra a fonte oficial e, quando cabe, uma
+página para experimentar no navegador, sem instalar nada.
 
 | | O que faz | |
 |---|---|---|
 | [simples-nacional-br](https://github.com/peterwkdev-creator/simples-nacional-br) | Simples Nacional: alíquota efetiva, valor do mês, Fator R e a repartição do DAS por tributo, conferidos faixa a faixa contra as tabelas da LC 123/2006 e da LC 214/2025; também como servidor MCP, para o Claude e outros assistentes chamarem as mesmas contas | [experimentar](https://peterwkdev-creator.github.io/simples-nacional-br/) |
 | [linguagem-simples-br](https://github.com/peterwkdev-creator/linguagem-simples-br) | Confere um texto contra os 18 incisos da Lei 15.263/2025 (Linguagem Simples) e diz, inciso por inciso, o que achou e o que não tem como conferir; precisão medida no README | [experimentar](https://peterwkdev-creator.github.io/linguagem-simples-br/) |
+| [vra-anac](https://github.com/peterwkdev-creator/vra-anac) | Pontualidade dos voos domésticos pelo VRA da ANAC: lê o CSV do mês e conta quantos voos chegaram no horário, por voo, rota, companhia ou aeroporto, com a mesma régua do Chegou na hora? | [PyPI](https://pypi.org/project/vra-anac/) |
 
 ## Para quem usa o Claude Code (MIT)
 
@@ -82,13 +83,16 @@ here is my own work, running in production.
   templates with a filled-in example and a setup guide, sold on
   [Etsy](https://numerasheets.etsy.com).
 
-Open libraries (MIT, pure Python, each with an in-browser demo):
+Open libraries (MIT, pure Python):
 [simples-nacional-br](https://github.com/peterwkdev-creator/simples-nacional-br)
 computes Brazil's Simples Nacional tax and its split by tax, checked bracket
 by bracket against the official tables, also as an MCP server for Claude
 and other assistants;
 [linguagem-simples-br](https://github.com/peterwkdev-creator/linguagem-simples-br)
-checks a text against Brazil's Plain Language Law (Lei 15.263/2025).
+checks a text against Brazil's Plain Language Law (Lei 15.263/2025), both
+with an in-browser demo;
+[vra-anac](https://github.com/peterwkdev-creator/vra-anac) computes on-time
+arrival for Brazil's domestic flights from ANAC's monthly VRA file.
 For Claude Code users, [claude-context-cost](https://github.com/peterwkdev-creator/claude-context-cost) (MIT) measures how much
 each source (`CLAUDE.md`, rules, skills, memory, tool results) costs in a
 session's context, from the API `usage` recorded in its transcript. The data
