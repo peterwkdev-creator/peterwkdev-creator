@@ -47,6 +47,16 @@ página para experimentar no navegador, sem instalar nada.
 |---|---|
 | [claude-context-cost](https://github.com/peterwkdev-creator/claude-context-cost) | Quanto cada fonte (`CLAUDE.md`, regras, skills, memória, resultado de ferramenta) custa no contexto de uma sessão, contado pelo `usage` da API gravado na transcrição, não estimado pelos caracteres; lê só os arquivos locais |
 
+## IA testada na prática (MIT)
+
+O código por trás dos posts da [@peterwk.dev](https://www.instagram.com/peterwk.dev/)
+no Instagram: cada post aponta para o repositório que o reproduz.
+
+| | O que faz |
+|---|---|
+| [tts-ptbr](https://github.com/peterwkdev-creator/tts-ptbr) | Voz sintética em português com modelos abertos (Kokoro e Piper): normalizador PT-BR e dicionário próprios, prosódia frase a frase e a pronúncia medida pelo Whisper; versão inicial, aberta a melhorias |
+| [carrossel-terminal](https://github.com/peterwkdev-creator/carrossel-terminal) | Carrossel do Instagram no visual de terminal: o texto em Markdown vira PNG 4:5, um conferidor barra defeito antes de publicar e o post vira Reel, com narração opcional pelo tts-ptbr |
+
 ## Os motores por trás dos sites (AGPL-3.0)
 
 | | O que faz |
@@ -95,7 +105,11 @@ with an in-browser demo;
 arrival for Brazil's domestic flights from ANAC's monthly VRA file.
 For Claude Code users, [claude-context-cost](https://github.com/peterwkdev-creator/claude-context-cost) (MIT) measures how much
 each source (`CLAUDE.md`, rules, skills, memory, tool results) costs in a
-session's context, from the API `usage` recorded in its transcript. The data
+session's context, from the API `usage` recorded in its transcript. For the [@peterwk.dev](https://www.instagram.com/peterwk.dev/)
+Instagram posts (MIT): [tts-ptbr](https://github.com/peterwkdev-creator/tts-ptbr), Portuguese text-to-speech
+on open models with our own normalizer and pronunciation measured by Whisper,
+and [carrossel-terminal](https://github.com/peterwkdev-creator/carrossel-terminal), which turns Markdown into
+terminal-style carousel slides, checks them before publishing and makes the Reel. The data
 engines behind the sites are open source too (AGPL-3.0): fiscal reports and
 IDEB.
 
