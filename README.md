@@ -7,6 +7,12 @@ abaixo é trabalho meu, no ar.
 
 ## Produtos no ar
 
+### [NumeraSheets](https://numerasheets.com) · [loja na Etsy](https://numerasheets.etsy.com) · [código](https://github.com/peterwkdev-creator/numerasheets-site)
+
+Planilhas prontas com fórmulas (notas e despesas, imóvel de aluguel, taxas de
+marketplace, conteúdo para redes sociais), cada uma com exemplo preenchido e
+guia de uso, vendidas para baixar na hora.
+
 ### [Números Públicos](https://www.numerospublicos.com.br) · [código](https://github.com/peterwkdev-creator/numeros-publicos)
 
 Uma página para cada um dos **5.571 municípios** do Brasil: população, PIB, de
@@ -23,12 +29,6 @@ voos domésticos no Brasil, por número do voo, rota, aeroporto e companhia, com
 os registros oficiais da ANAC: o horário prometido ao lado do que aconteceu.
 2.646 páginas (2.021 voos, 540 rotas, 74 aeroportos), no ar desde setembro de
 2026.
-
-### [NumeraSheets](https://numerasheets.com) · [loja na Etsy](https://numerasheets.etsy.com) · [código](https://github.com/peterwkdev-creator/numerasheets-site)
-
-Planilhas prontas com fórmulas (notas e despesas, imóvel de aluguel, taxas de
-marketplace, conteúdo para redes sociais), cada uma com exemplo preenchido e
-guia de uso, vendidas para baixar na hora.
 
 ## Bibliotecas abertas (MIT)
 
@@ -56,6 +56,7 @@ no Instagram: cada post aponta para o repositório que o reproduz.
 |---|---|
 | [tts-ptbr](https://github.com/peterwkdev-creator/tts-ptbr) | Voz sintética em português com modelos abertos (Kokoro e Piper): normalizador PT-BR e dicionário próprios, prosódia frase a frase e a pronúncia medida pelo Whisper; versão inicial, aberta a melhorias |
 | [carrossel-terminal](https://github.com/peterwkdev-creator/carrossel-terminal) | Carrossel do Instagram no visual de terminal: o texto em Markdown vira PNG 4:5, um conferidor barra defeito antes de publicar e o post vira Reel, com narração opcional pelo tts-ptbr |
+| [ia-testada](https://github.com/peterwkdev-creator/ia-testada) | As medidas por trás dos posts: uma pasta por post, com o script, a saída e como refazer |
 
 ## Os motores por trás dos sites (AGPL-3.0)
 
@@ -82,6 +83,9 @@ show the number with its source and date, and open libraries that check a rule
 against the official text. Senior software engineer since 2017; everything
 here is my own work, running in production.
 
+- **[NumeraSheets](https://numerasheets.com)**: formula-driven spreadsheet
+  templates with a filled-in example and a setup guide, sold on
+  [Etsy](https://numerasheets.etsy.com).
 - **[Números Públicos](https://www.numerospublicos.com.br)**: one page for
   each of Brazil's 5,571 municipalities (population, GDP, budget, personnel
   spending against the legal limit, health and schools), each number with its
@@ -89,9 +93,6 @@ here is my own work, running in production.
 - **[Chegou na hora?](https://chegounahora.com.br)**: real arrival
   punctuality for every domestic flight in Brazil, from ANAC's official
   records (2,646 pages).
-- **[NumeraSheets](https://numerasheets.com)**: formula-driven spreadsheet
-  templates with a filled-in example and a setup guide, sold on
-  [Etsy](https://numerasheets.etsy.com).
 
 Open libraries (MIT, pure Python):
 [simples-nacional-br](https://github.com/peterwkdev-creator/simples-nacional-br)
@@ -109,7 +110,7 @@ session's context, from the API `usage` recorded in its transcript. For the [@pe
 Instagram posts (MIT): [tts-ptbr](https://github.com/peterwkdev-creator/tts-ptbr), Portuguese text-to-speech
 on open models with our own normalizer and pronunciation measured by Whisper,
 and [carrossel-terminal](https://github.com/peterwkdev-creator/carrossel-terminal), which turns Markdown into
-terminal-style carousel slides, checks them before publishing and makes the Reel. The data
+terminal-style carousel slides, checks them before publishing and makes the Reel; [ia-testada](https://github.com/peterwkdev-creator/ia-testada) holds the measurements behind each post, one folder per post with the script, the output and how to rerun it. The data
 engines behind the sites are open source too (AGPL-3.0): fiscal reports and
 IDEB.
 
