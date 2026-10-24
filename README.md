@@ -62,8 +62,8 @@ no Instagram: cada post aponta para o repositório que o reproduz.
 
 | | O que faz |
 |---|---|
-| [painel-fiscal](https://github.com/peterwkdev-creator/painel-fiscal) | Varre os relatórios fiscais dos 5.570 municípios no Tesouro Nacional, retomando de onde parou, e marca o envio implausível em vez de ranqueá-lo |
-| [educacao-inep](https://github.com/peterwkdev-creator/educacao-inep) | Lê o IDEB de cada município na planilha do INEP, passando por seis armadilhas silenciosas |
+| [painel-fiscal](https://github.com/peterwkdev-creator/numeros-publicos/tree/main/motores/painel-fiscal) | Varre os relatórios fiscais dos 5.570 municípios no Tesouro Nacional, retomando de onde parou, e marca o envio implausível em vez de ranqueá-lo |
+| [educacao-inep](https://github.com/peterwkdev-creator/numeros-publicos/tree/main/motores/educacao-inep) | Lê o IDEB de cada município na planilha do INEP, passando por seis armadilhas silenciosas |
 
 **Como são feitos:** Python → SQLite → site estático, sem servidor para manter
 de pé. Conferência contra o total oficial antes de publicar qualquer coisa,
